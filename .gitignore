@@ -22,7 +22,6 @@ build/
 
 # Dependency directories
 jspm_packages/
-temp_auto_push.bat
 bower_components/
 
 # TypeScript
@@ -36,19 +35,15 @@ bower_components/
 .DS_Store
 Thumbs.db
 
-# Temporary files
-tmp/
-temp/
 
-# Coverage files
+# Test / coverage
 coverage/
-
-# Test output
 .nyc_output/
 
-.vercel
-.DS_Store
+# Vercel
+.vercel/
 
+temp_auto_push.bat
+temp_interactive_push.bat
 .gitignore
 config.bat
-temp_interactive_push.bat
